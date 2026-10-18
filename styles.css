@@ -65,3 +65,6 @@
 .patent-award h3 a{text-decoration:none}
 .patent-read{display:inline-flex;gap:22px;font-size:12px;line-height:1.8;margin-top:14px;color:var(--rust);text-underline-offset:4px}
 @media(max-width:720px){.patent-header{grid-template-columns:1fr;gap:28px;padding:25px 0}.patent-header h1{font-size:clamp(36px,9vw,52px);margin-top:20px}.patent-result{padding:18px 0}.patent-result strong{font-size:28px;margin:10px 0 6px}.patent-deck{padding:23px 0}.patent-deck h2{font-size:18px}.patent-deck>p{font-size:13px}.patent-example{padding:20px 16px}.patent-equation{gap:9px}.patent-equation small{font-size:10px}.patent-equation strong{font-size:23px}.patent-equation>span{font-size:16px}.patent-timeline{grid-template-columns:1fr;gap:22px;margin-top:25px}.patent-timeline li{padding-top:17px}.patent-timeline h3{margin:10px 0 8px}.patent-product{gap:20px;padding:20px 0}.patent-product p{font-size:12px}.award-list .patent-award{padding-left:13px;column-gap:12px}.patent-award small{display:block;grid-column:2;text-align:left;padding:0}.patent-read{font-size:11px}}
+
+/* Keep the main project section title on one line at small widths. */
+body:not(.editorial) #work .section-heading h2{white-space:nowrap;font-size:clamp(28px,8.5vw,51px)}
