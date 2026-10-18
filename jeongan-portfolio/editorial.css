@@ -30,8 +30,9 @@
 .ed-project .ledger-panel{margin:20px 0;padding:22px}
 .ed-project .project-visual .diagram-caption{margin-top:14px;line-height:1.8}
 @media(min-width:721px){
- .editorial .ed-projects{row-gap:0;align-items:stretch}
+ .editorial .ed-projects{row-gap:0;align-items:stretch;padding-bottom:60px}
  .ed-project{display:grid;grid-template-rows:subgrid;grid-row:span 8;row-gap:0;padding-bottom:60px;min-width:0}
+ .ed-project:nth-child(even){position:relative;top:60px}
  .ed-project>.status{justify-self:start;align-self:start}
  .ed-project>.project-visual{align-self:end}
  .ed-project>.text-link{align-self:end}
